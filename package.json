@@ -1,0 +1,30 @@
+{
+  "name": "ajs-unit-tests-func",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickupx/ajs-unit-tests-func.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickupx/ajs-unit-tests-func/issues"
+  },
+  "homepage": "https://github.com/nickupx/ajs-unit-tests-func#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
